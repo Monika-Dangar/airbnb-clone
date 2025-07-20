@@ -1,0 +1,24 @@
+# === Node.js / General ===
+node_modules/
+**/node_modules/
+
+# Dependency lock files (optional to ignore if you want reproducible builds)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Environment variables
+.env
+.env.*    # for .env.production, .env.local, etc.
+**/.env
+**/.env.*
+
+# === Vite (Frontend) ===
+dist/
+frontend/dist/
+frontend/.vite/
+
+# === Build output (Backend or frontend) ===
+build/
+**/build/
+out/
